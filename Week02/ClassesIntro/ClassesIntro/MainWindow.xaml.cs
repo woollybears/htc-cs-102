@@ -27,16 +27,12 @@ namespace ClassesIntro
 
         private void Bark_Button_Click(object sender, RoutedEventArgs e)
         {
-            Dog dog = new Dog();
-            dog.Bark();
+
         }
 
         private void SayName_Button_Click(object sender, RoutedEventArgs e)
         {
-            string dogName = DogName.Text;
 
-            Dog dog = new Dog("Corgi", 12, dogName);
-            dog.SayName();
         }
     }
 }
