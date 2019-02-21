@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="700" Width="700">
     <StackPanel>
-        <Image Source="dog.jpg" Width="700" Margin="0,0,-8,0"/>
         <TextBlock><Run Text="Dog Name:"/></TextBlock>
         <TextBox x:Name="DogName"/>
+        <Image Source="dog.jpg" Margin="-328,0,-292,0" Height="291" RenderTransformOrigin="0.5,0.5"/>
         <Button Click="Bark_Button_Click" Content="Bark"/>
         <Button Click="SayName_Button_Click" Content="Say Name"/>
     </StackPanel>

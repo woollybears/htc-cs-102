@@ -13,6 +13,13 @@ namespace ClassesIntro
         public int Height;
         public string Name;
 
+        public Dog(string name, int height, string breed)
+        {
+            Name = name;
+            Height = height;
+            Breed = breed; 
+        }
+
         public void Bark()
         {
             MessageBox.Show("Yeetus to the Woofus");
@@ -21,5 +28,6 @@ namespace ClassesIntro
         {
             MessageBox.Show("My name is " + Name);
         }
+       
     }
 }
