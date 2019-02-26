@@ -14,6 +14,10 @@ Add in proper error handling for numeric (`int` and `double`) fields when "Add" 
 - If the user does not enter a number for the numeric fields, display a message to the user saying there was an error, and prevent the movie from being added to the list
 - If the movie is added successfully, display a message to the user saying it was added
 
+References:
+- https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch
+- https://docs.microsoft.com/en-us/dotnet/api/system.int32.tryparse?view=netframework-4.7.2
+
 ## 4. CHALLENGE - Release Date
 Instead of storing the Release Year for a movie, store the Release Date using a `DateTime` type. Use a `DatePicker` in the User Interface to allow the user to select a date.
 - Update the `ReleaseYear` field in the `Movie` class:
