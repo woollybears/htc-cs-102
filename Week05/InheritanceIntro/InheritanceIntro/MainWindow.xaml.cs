@@ -49,6 +49,38 @@ namespace InheritanceIntro
             {
                 d.SayName();
             }
+            duck duck1 = new duck(25, "Harry");
+            duck duck2=new duck (45, "Henrietta");
+            List<duck> ducks = new List<duck>();
+            ducks.Add(duck1);
+            ducks.Add(duck2);
+            foreach(duck duck in ducks)
+            {
+                duck.SayName();
+            }
+            Frog frog1 = new Frog("No" ,"Bo");
+            Frog frog2 = new Frog("Yes", "Spiky");
+            List<Frog> frogs = new List<Frog>();
+            frogs.Add(frog1);
+            frogs.Add(frog2);
+            foreach(Frog frog in frogs)
+            {
+                frog.SayName();
+            }
+            
+        }
+
+        private void Quack_Button_Click(object sender, RoutedEventArgs e)
+        {
+            duck duck = new duck(0,"mom");
+            duck.Quack();
+
+        }
+
+        private void Ribbit_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Frog frog = new Frog("Yes","mommy");
+            frog.Ribbit();
         }
     }
 }
