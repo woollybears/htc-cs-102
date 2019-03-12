@@ -16,11 +16,12 @@ Verify that when running the program, the new column appears with the proper val
 ## Add new animals to the list
 The users would like to fill out the list with some additional animals:
 
-| Type | Name | Height | Weight |
-|-|-|
-| Dog | Clifford | 200 | 1000 |
-| Duck | Daffy | 5 | 60 |
-| Frog | Jeremiah | 3 | 90 |
+| Type | Name     | Height | Weight |
+|------|----------|--------|--------|
+| Dog  | Clifford | 200    | 1000   |
+| Duck | Daffy    | 5      | 60     |
+| Frog | Jeremiah | 3      | 15     |
+
 
 For each of the animals listed above, in the `MainWindow()` constructor in `MainWindow.xaml.cs`:
 1. Instantiate a new animal object
