@@ -30,5 +30,11 @@ Now, `Animal` is both a base class AND a derived class. It is the base class to 
 ## Tree
 Now that we represent organisms in our program, we can create more derived classes. Create a new class named `Tree` that inherits from `Organism`, and give it some properties and methods.
 
+## `Object` class
+Read the following article to learn more about the `Object` class in C#: https://docs.microsoft.com/en-us/dotnet/api/system.object?view=netframework-4.7.2
+
+### Overriding the `ToString` method
+Read through the following article and then override the `ToString` method on all of your classes: https://docs.microsoft.com/en-us/dotnet/api/system.object.tostring?view=netframework-4.7.2#Overriding
+
 ## Beyond
 What other sorts of things could we represent in C#? The answer is pretty much anything. Try to think of some other types of data, and create some classes, base classes, and derived classes for the data. 
