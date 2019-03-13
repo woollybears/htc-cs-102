@@ -33,30 +33,33 @@ namespace InheritanceIntro
 
         private void SayName_Button_Click(object sender, RoutedEventArgs e)
         {
+            List<animal> animals = new List<animal>();
             // Define a new List of dogs
-            List<Dog> dogs = new List<Dog>();
+           // List<Dog> dogs = new List<Dog>();
             
             // Instantiate some dog objects
             Dog dog1 = new Dog("Muppet", 20, "Rolf");
             Dog dog2 = new Dog("Golden Retriever", 30, "Air Bud");
 
             // Add the dogs to the list
-            dogs.Add(dog1);
-            dogs.Add(dog2);
+            animals.Add(dog1);
+            animals.Add(dog2);
 
             // Loop through the list and call a method on the objects
-            foreach (Dog d in dogs)
-            {
-                d.SayName();
-            }
+            //foreach (Dog d in dogs)
+           // {
+            //    d.SayName();
+           // }
             duck duck1 = new duck(25, "Harry");
             duck duck2=new duck (45, "Henrietta");
-            List<duck> ducks = new List<duck>();
-            ducks.Add(duck1);
-            ducks.Add(duck2);
-            foreach(duck duck in ducks)
+            //List<duck> ducks = new List<duck>();
+            animals.Add(duck1);
+            animals.Add(duck2);
+            
+            foreach (animal animal in animals)
             {
-                duck.SayName();
+                animal.SayName();
+                MessageBox.Show("The height is " + animal.Height);
             }
             Frog frog1 = new Frog("No" ,"Bo");
             Frog frog2 = new Frog("Yes", "Spiky");

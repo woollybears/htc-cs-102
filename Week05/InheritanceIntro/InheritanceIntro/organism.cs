@@ -8,7 +8,7 @@ namespace InheritanceIntro
 {
     public class organism
     {
-        DNA
+       
 
 
     }
