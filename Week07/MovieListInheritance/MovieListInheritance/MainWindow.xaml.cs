@@ -28,6 +28,8 @@ namespace MovieList
             InitializeComponent();
 
             MovieList = new ObservableCollection<Movie>();
+         
+
             lvMovies.ItemsSource = MovieList;
         }
 
@@ -39,6 +41,8 @@ namespace MovieList
 
             titleInput.Clear();
             releaseYearInput.Clear();
+            animationStudioInput.Clear();
+            animationTypeInput.Clear();
         }
 
         private void ShowButton_Click(object sender, RoutedEventArgs e)
@@ -56,6 +60,20 @@ namespace MovieList
             {
                 selectedMovie.ShowDetails();
             }
+        }
+
+        private void AddAnimatedButton_Click(object sender, RoutedEventArgs e)
+        {
+
+           Movie animatedmovieToAdd = new AnimatedMovie(titleInput.Text, animationStudioInput.Text, animationStudioInput.Text, animationTypeInput.Text);
+
+            MovieList.Add(animatedmovieToAdd);
+
+            titleInput.Clear();
+            releaseYearInput.Clear();
+            animationStudioInput.Clear();
+            animationTypeInput.Clear();
+
         }
     }
 }
