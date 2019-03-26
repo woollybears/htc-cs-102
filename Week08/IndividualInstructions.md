@@ -143,7 +143,7 @@ Currently, we are not able to properly set the `Width` and `Height` of our `Diam
 Start by drawing a diamond on paper or on a whiteboard. Try to figure out the points of the diamond based on the diamond's width and height. The coordinates for the points should be dynamic and change depending on the height and width.
 
 #### Implementing it in code
-**Update the `get` for `DefiningGeometry` of the `Diamond` class so that it uses the `Width` and `Height` properties to determine the points used by the line segments**. Once you have updated that, you will have to set the `Width` and the `Height` when creating a `Diamond`, like we did for `Rectangle`.
+Update the `get` for `DefiningGeometry` of the `Diamond` class so that it uses the `Width` and `Height` properties to determine the points used by the line segments. Once you have updated that, you will have to set the `Width` and the `Height` when creating a `Diamond`, like we did for `Rectangle`.
 
 >Note that using the `Width` and `Height` properties within the `Diamond` class is only possible because the `Shape` class has implemented those properties.
 
