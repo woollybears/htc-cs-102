@@ -116,6 +116,7 @@ This may look like a lot of code, but most of it is boiler-plate that would be t
 - Setting the `Point` of the line segments to a variety of points
 
 Here are some definitions:
+
 | Class | Purpose |
 |-|-|
 | `PathFigure` | Represents a subsection of a geometry, a single connected series of two-dimensional geometric segments |
