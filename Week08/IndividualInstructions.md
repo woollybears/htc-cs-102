@@ -127,6 +127,9 @@ Here are some definitions:
 
 For our purposes, the important part is how we define the line segments, and the points between them. For the `Diamond` class, we start in the top middle (50, 0), then move to the middle right (100, 50), then move to the bottom middle (50, 100), then move to the middle left (0, 50), and then finally, move back to the top middle (50, 0). These four line segments create our Diamond shape!
 
+### Drawing it out
+At this point, it may be helpful to draw the plane on which the `Diamond` lies. This should make it easier to see where the different points are, and help connect the dots for the shape.
+
 ## Adding Diamonds to the Canvas
 Now that we have our `Diamond` class defined, we can create diamonds and display them. You can treat them just like the `Rectangle` class, other than setting their `Width` and `Height`. **Make a couple of diamonds with a couple of different colors and positions.**
 
@@ -134,7 +137,13 @@ It's pretty easy to make a new shape! Because `Shape` is an abstract class, we c
 
 ## More Diamond updates
 ### Width and Height
-Currently, we are not able to properly set the `Width` and `Height` of our `Diamond` shape. This is because we have hard-coded values for our points using static numbers. Instead of using those numbers for the points (e.g., 50, 100), we can use the dimensions inherited from the `Shape` class. **Update the `get` for `DefiningGeometry` of the `Diamond` class so that it uses the `Width` and `Height` properties to determine the points used by the line segments**. Once you have updated that, you will have to set the `Width` and the `Height` when creating a `Diamond`, like we did for `Rectangle`.
+Currently, we are not able to properly set the `Width` and `Height` of our `Diamond` shape. This is because we have hard-coded values for our points using static numbers. Instead of using those numbers for the points (e.g., `50`, `100`), we can use the dimensions inherited from the `Shape` class.
+
+#### Drawing it out
+Start by drawing a diamond on paper or on a whiteboard. Try to figure out the points of the diamond based on the diamond's width and height. The coordinates for the points should be dynamic and change depending on the height and width.
+
+#### Implementing it in code
+**Update the `get` for `DefiningGeometry` of the `Diamond` class so that it uses the `Width` and `Height` properties to determine the points used by the line segments**. Once you have updated that, you will have to set the `Width` and the `Height` when creating a `Diamond`, like we did for `Rectangle`.
 
 >Note that using the `Width` and `Height` properties within the `Diamond` class is only possible because the `Shape` class has implemented those properties.
 
