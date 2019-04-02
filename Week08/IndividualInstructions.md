@@ -174,3 +174,5 @@ This is meant to be fairly challenging. You will have to use some sort of loop t
 
 ### (BONUS) Cube
 Use two-dimensional figures to represent a cube. This will require many line segments. It is recommended to draw the shape first, before attempting to represent it in code.
+
+![](http://www.mathaware.org/mam/00/master/essays/dimension/JPG/figure21.jpg)
