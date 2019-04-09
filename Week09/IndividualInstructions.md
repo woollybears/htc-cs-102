@@ -5,6 +5,8 @@ Follow the instructions below to create some animations.
 ### New WPF Application
 Start by creating a completely new WPF application. Open up Visual Studio and select File -> New -> Project, and choose "WPF Application" from the "Visual C#" menu.
 
+**Make sure you save your WPF application in your GitHub Repo Week09 folder.**
+
 ### `MainWindow.xaml` updates
 In the XAML file, add a new `Canvas` element inside of the existing `Grid`. Make sure to give it a `Name` so we can use it in the C# code. Additionally, set its background to a color:
 
