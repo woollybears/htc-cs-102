@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace WoollyBearsDataBase
 {
-    public class Animal
+    public class Caterpillar : Animal
     {
+        public int woollyLength;
+        public string woollyType;
         public string woollyName;
     }
+
+    
 }

@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WoollyBearsDataBase
+ namespace WoollyBearsDataBase
 {
-    public class Animal
+    public class Caterpillar
     {
-        public string woollyName;
+        int woollyLength;
+        string woollyType;
     }
 }

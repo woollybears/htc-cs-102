@@ -23,11 +23,13 @@ namespace WoollyBearsDataBase
         public List<Woolly> WoollyBears;
         public MainWindow()
         {
-
             WoollyBears = new List<Woolly>();
 
         }
-        private void buttonWoolly_Click(object sender, RoutedEventArgs e)
+
+        
+
+        private void Create_Click(object sender, RoutedEventArgs e)
         {
             string oname = onamebox.Text;
             string name = namebox.Text;
@@ -36,6 +38,11 @@ namespace WoollyBearsDataBase
             string color = colorbox.Text;
             Woolly newWoolly = new Woolly(name, oname, type, length, color);
             WoollyBears.Add(newWoolly);
+            foreach (Woolly woolly in WoollyBears)
+            {
+                woolly.ShowWoolly();
+               
+            }
         }
     }
 }
