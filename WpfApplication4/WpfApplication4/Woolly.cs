@@ -25,7 +25,7 @@ namespace WoollyBearsDataBase
 
         public void ShowWoolly()
         {
-            MessageBox.Show(woollyName + Environment.NewLine + woollyColor + Environment.NewLine + woollyType + Environment.NewLine + ownerName + Environment.NewLine + woollyLength + Environment.NewLine+ "Thank you for creating a woolly bear! Create more!");
+            MessageBox.Show("The name of you woolly bear is " + woollyName + "!" + Environment.NewLine + "The Color of you woolly bear is " + ownerName + "!" +  Environment.NewLine + "Your woolly bear's type is " + woollyType + "!" + Environment.NewLine +  "Your Name is " + woollyColor + "!" + Environment.NewLine +  "The Length of your woolly bear is "+ woollyLength + "!" + Environment.NewLine+ "Thank you for creating a woolly bear! Create more!");
         }
     }
 

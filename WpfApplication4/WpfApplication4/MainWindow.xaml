@@ -20,6 +20,7 @@
         <TextBlock x:Name="color" HorizontalAlignment="Left" Height="20" Margin="388,182,0,0" TextWrapping="Wrap" Text="What is the color of your woolly bear?" VerticalAlignment="Top" Width="410"/>
         <TextBox x:Name="colorbox" HorizontalAlignment="Left" Height="23" Margin="389,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" Background="BlanchedAlmond"/>
         <Button x:Name="Create" Content="Create your Woolly Bear!" HorizontalAlignment="Left" Height="62" Margin="388,270,0,0" VerticalAlignment="Top" Width="409" Click="Create_Click" Background="DarkOliveGreen"/>
+        <TextBlock x:Name="Copyright" HorizontalAlignment="Left" Height="21" Margin="10,391,0,0" TextWrapping="Wrap" Text="Powered by Woolly Enterprises 2019" VerticalAlignment="Top" Width="296"/>
 
     </Grid>
 </Window>
